@@ -16,11 +16,6 @@ public class Lab2 {
         String trimmedName = fullName.trim();
         String upperName = trimmedName.toUpperCase();
 
-        trimmedName.indexOf(" ");
-        trimmedName.substring(0);
-        trimmedName.replace("","").length();
-
-
         if (accountNumber.length() != 8) {
             System.out.println("Invalid Account Number");
             input.close();
