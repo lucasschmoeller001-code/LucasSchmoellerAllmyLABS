@@ -1,0 +1,115 @@
+=========================================
+       D&D ADVENTURE — Lab Simulation     
+=========================================
+
+Heroes: Aragorn the Warrior, Merlin the Wizard, Shadow the Rogue.
+
+--- Round 1 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 2 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 3 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 4 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 5 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 6 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 7 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 8 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 9 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 10 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 11 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 12 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 13 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 14 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 15 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 16 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 17 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 18 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 19 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+--- Round 20 ---
+  Aragorn the Warrior advances to (1, 1).
+  Merlin the Wizard advances to (2, 2).
+  Shadow the Rogue advances to (1, 3).
+  Grok the Orc the Monster advances to (18, 8).
+
+*** Combat continues into legend... (max rounds reached) ***
+
+--- Final HP ---
+Aragorn: 25 HP
+Merlin: 15 HP
+Shadow: 20 HP
+Grok the Orc: 40 HP
+
