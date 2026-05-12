@@ -153,8 +153,13 @@ public class DungeonAdventure {
     public static int computeAttackDamage(int strength, int weaponDie, int armor, Random rng) {
         // TODO Part 2: Call rollDice(1, weaponDie, rng) to get the weapon roll.
         //              Add strength, subtract armor, clamp to 0.
+        int roll = rollDice(1, weaponDie, rng); //roll wpn die
+        int damage = roll + strength - armor; //calc damage
 
-        return 0; // <-- replace this
+        if (damage < 0) {
+            return 0;
+        }
+        return damage; //final dmg
     }
 
     // =========================================================================
@@ -190,8 +195,9 @@ public class DungeonAdventure {
     public static int distanceBetween(int x1, int y1, int x2, int y2) {
         // TODO Part 3: Use Math.abs and Math.max to compute the king's-move
         //              distance between (x1,y1) and (x2,y2).
-
-        return 0; // <-- replace this
+        int xDistance = Math.abs(x1 - x2); //finds x distance
+        int yDistance = Math.abs(y1 - y2); //finds y distance
+        return Math.max(xDistance, yDistance); // <-- replace this
     }
 
     // =========================================================================
@@ -224,8 +230,9 @@ public class DungeonAdventure {
      */
     public static boolean canReach(int cx, int cy, int tx, int ty, int speed) {
         // TODO Part 4: Use distanceBetween(...) and compare with speed.
+        int distance = distanceBetween(cx, cy, tx, ty);
 
-        return false; // <-- replace this
+        return distance <= speed;
     }
 
     // =========================================================================
@@ -267,8 +274,22 @@ public class DungeonAdventure {
     public static int[] moveToward(int currentX, int currentY, int targetX, int targetY) {
         // TODO Part 5: Compute newX and newY using the rule above.
         //              Return  new int[]{ newX, newY };
+        int newX = currentX;
+        int newY = currentY; // makes new position the current
 
-        return new int[]{ currentX, currentY }; // <-- replace this
+        if (currentX < targetX) {
+            newX = currentX + 1;
+        } else if (currentX > targetX) {
+            newX = currentX - 1;
+
+        }
+
+        if (currentY < targetY) {
+            newY = currentY + 1;
+        }else if (currentY > targetY){
+            newY = currentY - 1; //moves toward target
+    }
+        return new int[]{ newX, newY }; // <-- replace this
     }
 
     // =========================================================================
@@ -310,8 +331,12 @@ public class DungeonAdventure {
                                          String defenderName, int damage) {
         // TODO Part 6: Build the log string. Use TYPE_NAMES[attackerType] for
         //              the attacker's class. Choose format based on damage == 0.
+        String classT = TYPE_NAMES[attackerType];
 
-        return ""; // <-- replace this
+        if (damage == 0) {
+            return attackerName + " attacks " + defenderName + " but the attack bounces off.";
+        }
+        return attackerName + " the " + classT + " attacks " + defenderName + " for " + damage + " damage."; // <-- replace this
     }
 
     // =========================================================================
@@ -359,8 +384,12 @@ public class DungeonAdventure {
     public static String generateEncounter(int partyLevel, Random rng) {
         // TODO Part 7: Roll a d4, look up the monster name, build the string.
 
-        return ""; // <-- replace this
-    }
+        String[] enemyList = {"Goblin Scout", "Skeleton Warrior", "Dire Wolf", "Orc Berserker"};
+
+        int diceRoll = rollDice(1, 4, rng); //rolls die
+        String chosenEnemy = enemyList[diceRoll - 1]; //picks enemy with dice roll
+        return "A level " + partyLevel + " party encounters a " + chosenEnemy + "."; // <-- replace this
+    }   // final encounter msg
 
     // =========================================================================
     //          End of TODOs.  Everything below is provided for you.
@@ -368,7 +397,7 @@ public class DungeonAdventure {
     //          but you should not need to modify it.
     // =========================================================================
 
-    /**
+    /*
      * Build the ASCII map of the current dungeon state. Squares with a
      * character on them show that character's symbol; empty squares show '.'.
      */
